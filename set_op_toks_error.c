@@ -12,6 +12,7 @@ void set_op_tok_error(int error_code)
 
 	toks_len = token_arr_len();
 	new toks = malloc(sizeof(char *) * (toks_len + 2));
+
 	if (!op_toks)
 	{
 		malloc_error();

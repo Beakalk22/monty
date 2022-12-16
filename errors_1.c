@@ -14,7 +14,7 @@ int no_int_error(unsigned int line_number);
 int usage_error(void)
 {
 	fprintf(stderr, "USAGE: monty file\n");
-	return(EXIT_FAILURE);
+	return (EXIT_FAILURE);
 }
 /**
  * malloc_error - prints malloc error messages
@@ -24,7 +24,7 @@ int usage_error(void)
 int malloc_error(void)
 {
 	fprintf(stderr, "Error: malloc failed\n");
-	return(EXIT_FAILURE);
+	return (EXIT_FAILURE);
 }
 /**
  * f_open_error - prints file opening error
